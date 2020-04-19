@@ -24,7 +24,7 @@ setup:  ## Setup for required tools.
 
 .PHONY: fmt
 fmt: $(SOURCES) ## Formatting source codes.
-	@$(GO) goimports -w $^
+	@$(GOIMPORTS) -w $^
 
 .PHONY: lint
 lint: ## Run golint and go vet.

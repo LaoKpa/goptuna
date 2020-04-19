@@ -7,10 +7,9 @@ import (
 	"math"
 	"os"
 
-	"github.com/c-bata/goptuna/successivehalving"
-
 	"github.com/c-bata/goptuna"
 	"github.com/c-bata/goptuna/rdb"
+	"github.com/c-bata/goptuna/successivehalving"
 	"github.com/c-bata/goptuna/tpe"
 	"github.com/go-gota/gota/dataframe"
 	"github.com/go-gota/gota/series"
